@@ -1,0 +1,11 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+body{font-family:'Noto Sans Devanagari',sans-serif;background:#FFFBF2;color:#4a2a14}
+h1,h2,h3,.fh{font-family:'Tiro Devanagari Hindi',serif}
+.btn{@apply inline-flex items-center justify-center rounded-full px-6 py-3 font-semibold transition active:scale-95}
+.btn-k{@apply btn bg-kesar text-white shadow-lg hover:bg-maroon}
+.btn-g{@apply btn border-2 border-gold text-maroon bg-cream hover:bg-gold hover:text-white}
+.inp{@apply w-full rounded-xl border border-gold/50 bg-white px-4 py-3 outline-none focus:ring-2 focus:ring-kesar}
+.bord{border:2px solid #C9961A;outline:2px solid #F4A259;outline-offset:-8px}
+@keyframes glow{0%,100%{text-shadow:0 0 10px #F4A259}50%{text-shadow:0 0 28px #FFD27A}}
+.om{animation:glow 4s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){.om{animation:none}}
