@@ -1,0 +1,1 @@
+export default {content:['./index.html','./src/**/*.{js,jsx}'],theme:{extend:{colors:{kesar:'#E8731A',bhagwa:'#F4A259',gold:'#C9961A',cream:'#FFF6E3',ivory:'#FFFBF2',maroon:'#6B1F12'},fontFamily:{hindi:['"Tiro Devanagari Hindi"','serif'],body:['"Noto Sans Devanagari"','sans-serif']}}}}
